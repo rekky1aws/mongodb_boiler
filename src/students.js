@@ -10,5 +10,5 @@ const studentSchema = new mongoose.Schema({
 	enrolled: { type: Date, default: Date.now } 
 });
 
-// Exporting Schema
+// Exporting student model
 export const Student = mongoose.model('Student', studentSchema);

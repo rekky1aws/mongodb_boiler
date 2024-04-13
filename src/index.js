@@ -25,5 +25,7 @@ const testStudentData = {
 // Using Model to insert
 await Student.create(testStudentData);
 
+// Find data in the database using model
+const result = await Student.find();
+console.log(result);
 
-// await executeStudentCrudOperations();
