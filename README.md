@@ -5,7 +5,7 @@ At the moment, it's just me messing around with MongoDB and Mongoose to learn ho
 ## NPM Packages
 | Name     | Description                                         | Required           |
 |:---------|:----------------------------------------------------|:-------------------|
-| dotenv   | Used to read data from .env files                   | Only if you needed |
+| dotenv   | Used to read data from .env files                   | Only if needed |
 | mongodb  | Connect with your MongoDB database                  | Yes                |
 | mongoose | Connect with your MongoDB database, but made easier | Yes                |
 
