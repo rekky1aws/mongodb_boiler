@@ -2,6 +2,12 @@
 
 At the moment, it's just me messing around with MongoDB and Mongoose to learn how to use them in future projects
 
+## NPM Packages
+|  Name  | Description | Required |
+|:------:|:-----------:|:--------:|
+| dotenv |Used to read data from .env files|Only if you needed|
+| mongodb |
+
 ## Infos
 If you use MongoDB on Windows and launch node via WSL, don't forget to :
  + go to `$MONGO_INSTALL/bin/mongod.config` and change `bindIp:` to `0.0.0.0`
