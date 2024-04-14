@@ -3,11 +3,11 @@
 At the moment, it's just me messing around with MongoDB and Mongoose to learn how to use them in future projects
 
 ## NPM Packages
-| Name     | Description                                         | Required           |
-|:---------|:----------------------------------------------------|:-------------------|
+| Name     | Description                                         | Required       |
+|:---------|:----------------------------------------------------|:---------------|
 | dotenv   | Used to read data from .env files                   | Only if needed |
-| mongodb  | Connect with your MongoDB database                  | Yes                |
-| mongoose | Connect with your MongoDB database, but made easier | Yes                |
+| mongodb  | Connect with your MongoDB database                  | Yes            |
+| mongoose | Connect with your MongoDB database, but made easier | Yes            |
 
 ## Infos
 If you use MongoDB on Windows and launch node via WSL, don't forget to :
