@@ -4,9 +4,12 @@
  * Module dependencies.
  */
 
-var app = require('../app');
+import { app } from '../app.js';
+import { http } from 'http';
+
+/*var app = require('../app');
 var debug = require('debug')('mongotest:server');
-var http = require('http');
+var http = require('http');*/
 
 /**
  * Get port from environment and store in Express.

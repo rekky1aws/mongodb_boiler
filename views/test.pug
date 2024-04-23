@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1= title
+  ul
+    each val in data
+      li(class="student")
+        div(class="name")= data.firstName + data.lastName
+        div(class="cursus")= data.cursus
